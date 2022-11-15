@@ -8,4 +8,5 @@ print(o)
 r = (lambda num:"even numbers" if num%2==0
      else "odd numbers")(3)
 print(r)
-
+print((lambda num:"even numbers" if num%2==0
+       else "odd numbers")(225316))
